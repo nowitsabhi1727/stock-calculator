@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    color: white;
+}
+.container{
+    background-color: black;
+    display: flex;
+    margin: 4rem auto;
+    max-width: 80%;
+    min-height: 80vh;
+    box-shadow: 0 40px 40px -10px var(--grey);
+}
+.col1{
+   
+    background-image: url("./images/80a295357b81289dea46c20c0606e438.jpeg");
+    width: 60%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: inherit;
+    position: relative;
+    padding-bottom: 1rem;
+
+}
+.col2{
+    background-color: #e85c4b;
+    width: 40%;
+    /* height: 60%; */
+    min-height:inherit;
+    position: relative;
+}
+.main-section{
+    padding: 0 4rem;
+    position: relative;
+}
+input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    width: 50%;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+button{
+    color: white;
+    background-color: #e85c4b;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border:none;
+    font-size: medium;
+}
+button:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+.output{
+    background-color:white;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto ;
+    font-size: 1.2rem;
+    width:fit-content;
+    height: auto;
+    display: none;
+}
+.connect{
+    border: 1px solid white;
+    background-color: #e85c4b;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 1rem;
+    position:absolute;
+}
+.connect:hover{
+    background-color: black;
+    border: 1px solid white;
+
+}
+.col2-img{
+    background-image: url("./images/logo2.jpeg");
+    min-height: 76%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    object-fit: fill;
+}
+nav li {
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+ .gain{
+    background-image: url("https://media.giphy.com/media/XbxZ41fWLeRECPsGIJ/giphy.gif");
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    margin-left: 3rem;
+    top: 150px;
+    background-repeat: no-repeat;
+    position:absolute;
+    display: none;
+
+}
+.loss{
+    background-image: url("https://media.giphy.com/media/d2lcHJTG5Tscg/giphy.gif");
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    /* margin-left: 3rem; */
+    top: 150px;
+    background-repeat: no-repeat;
+    position:absolute;
+    display: none;
+}
